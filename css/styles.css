@@ -1,0 +1,193 @@
+html, body {    
+ margin: 0;
+ padding: 0;
+}
+header {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 60px;
+  background-color: #570C10;
+  margin-top: -38px;
+  z-index: 1;
+}
+
+#name {
+  float: left;
+  width: 30%;
+}
+.full-name {
+  color: #fff;
+  font-size: 90%;
+  line-height: 50px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+nav {
+  display: block;
+  float: right;	
+  font-size: 70%;
+  line-height: 50px;
+  text-align: right;
+  width: 70%;
+  margin-top: 10px;
+}
+nav li {
+  display: inline;
+  padding: 0;
+  width: 100%;
+}
+
+nav ul li a {
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.triangle {
+  -webkit-text-stroke: 10px black;
+  color: transparent;
+  font-size: 400px;
+  text-align: center;
+  height: 450px;
+}
+
+#greeting {
+  font-size: 2em;
+  text-align: center;
+  margin-top: -8em;
+  color: black;
+}
+#home-intro {
+  background-image: url(https://i.ytimg.com/vi/fQjDE8BNoZc/maxresdefault.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25em;
+}
+.page-title {
+  background-color: #F4594E;
+  height: 30px;
+  line-height: 0px;
+  width: 175px;
+  color: #fff;
+  border: 2px solid #570C10;
+  margin: 50px auto;
+}
+.title-text {
+  font-size: 1.3em;
+  text-align: center;
+}
+/*body {
+  color:#222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans serif;
+}
+@media only screen and (max-width: 500px) {
+   .social > li > a {
+    font-size: 2em;
+  }
+  .content-footer {
+    padding: 1em 0em;
+  }
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
+.masthead-heading, 
+.masthead-intro, .content-footer,.title-intro, .info-intro, .importance, .hobby, .job, .background {
+  text-align: center;
+}
+.text-center {
+  text-align: center;
+}
+/*.masthead {
+  padding: 6em 0;
+  background-image: url(http://41.media.tumblr.com/19dfbaf988391259df014abdb08b20f2/tumblr_mvlob8kxA61sdyj9lo1_1280.jpg);
+  background-size:cover;
+  border-top: solid 1em #0040FF;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #FCD03E;
+}
+
+section > h2 {
+  color:#FACC2E;
+  font-size: 1.2em;
+}
+
+.introduction-section, .location-section, .questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.content-footer  {
+  padding: 2em;
+  margin-left:auto;
+  margin-right:auto;
+  border:300px; background-color:#3B240B; background-size:cover;
+  color:white;
+}
+a{
+  color:orange;
+}
+
+.social > li {
+  display: inline-block;
+}
+
+.title-intro {
+  font-weight: bolder;
+  font-size: 2em
+}
+.triangle1{
+  -webkit-text-stroke: 4px black;
+  position: relative;
+  color: transparent;
+  font-size: 50px;
+  opacity: 0.5;
+}
+.triangle2 {
+  -webkit-text-stroke: 4px black;
+  position: relative;
+  color: transparent;
+  font-size: 50px;
+  opacity: 0.5;
+  -webkit-transform: rotate(180deg);
+}
+#triangle3 {
+  -webkit-text-stroke: 4px black;
+  position: absolute;
+  color: transparent;
+  font-size: 400px;
+  margin-left: 0.70em;
+  margin-top: -0.00em;
+}
+#triangle4 {
+  -webkit-text-stroke: 4px black;
+  position: absolute;
+  color: transparent;
+  font-size: 400px;
+  -webkit-transform: rotate(180deg);
+  margin-left: 1.05em;
+  margin-top: -0.02em;
+}*/
